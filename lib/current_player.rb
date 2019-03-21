@@ -1,13 +1,13 @@
-def turn_count(board)
-turns = 0
-  board.each do |index|
-    if index == "X" || index == "O"
-      turns += 1
-    end
-  end
-  puts turns
-  turns
-end
+# def turn_count(board)
+# turns = 0
+#   board.each do |index|
+#     if index == "X" || index == "O"
+#       turns += 1
+#     end
+#   end
+#   puts turns
+#   turns
+# end
 def current_player(turns)
   player = turns % 2
   if player = 0
