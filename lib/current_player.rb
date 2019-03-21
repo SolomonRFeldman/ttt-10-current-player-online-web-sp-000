@@ -10,8 +10,8 @@ end
 def current_player(turns)
   player = turns % 2
   if player = 0
-    "X"
+    player = "X"
   elsif player = 1
-    "O"
+    player = "O"
   end
 end
