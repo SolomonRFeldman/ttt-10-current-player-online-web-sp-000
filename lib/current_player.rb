@@ -5,6 +5,7 @@ turns = 0
       turns += 1
     end
   end
+  puts turns
   turns
 end
 def current_player(turns)
