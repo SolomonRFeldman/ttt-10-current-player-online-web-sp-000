@@ -8,11 +8,14 @@
 #   puts turns
 #   turns
 # end
-def current_player(turns)
+
+def current_player(turns = 2)
   player = turns % 2
   if player = 0
+    puts "X"
     return "X"
   elsif player = 1
+    puts "O"
     return "O"
   end
 end
